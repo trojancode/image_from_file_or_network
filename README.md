@@ -1,10 +1,10 @@
 # image_from_file_or_network
 
-A new Flutter package project.
+A flutter package used to display images from url
 
-## Getting Started
+## Example
 
-This project is a flutter package that providers a widget called `ImageOrNetwork`. This widget requires a url. 
+This project is a flutter package that providers a widget called `ImageOrNetwork`. This widget requires a url and ext. 
 It downloads image from the url and save it in a unique name and display. It automatically display the image when the same url is used any where in the app, widget reloads, or app restarted.
 
 `Examle`
@@ -15,6 +15,7 @@ It downloads image from the url and save it in a unique name and display. It aut
   ImageOrNetWork(
     fit: BoxFit.cover,//@required
     url: url, // url is a string type @required.
+    ext:'.png', //not required and default is png
     height: 183, //@required
     width:  127, //@required
   );
