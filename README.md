@@ -5,6 +5,7 @@ A new Flutter package project.
 ## Getting Started
 
 This project is a flutter package that providers a widget called `ImageOrNetwork`. This widget requires a url. 
+It downloads image from the url and save it in a unique name and display. It automatically display the image when the same url is used any where in the app, widget reloads, or app restarted.
 
 `Examle`
 
