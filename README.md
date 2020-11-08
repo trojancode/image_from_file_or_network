@@ -4,10 +4,20 @@ A new Flutter package project.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+This project is a flutter package that providers a widget called `ImageOrNetwork`. This widget requires a url. 
+
+`Examle`
+
+<code>
+  import 'package:image_from_file_or_network/image_from_file_or_network.dart';
+
+  ImageOrNetWork(
+              fit: BoxFit.cover,//@required
+              url: url, // url is a string type @required.
+              height: 183, //@required
+              width:  127, //@required
+            );
+</code>
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
