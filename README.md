@@ -8,16 +8,16 @@ This project is a flutter package that providers a widget called `ImageOrNetwork
 
 `Examle`
 
-<code>
+```dart
   import 'package:image_from_file_or_network/image_from_file_or_network.dart';
 
   ImageOrNetWork(
-              fit: BoxFit.cover,//@required
-              url: url, // url is a string type @required.
-              height: 183, //@required
-              width:  127, //@required
-            );
-</code>
+    fit: BoxFit.cover,//@required
+    url: url, // url is a string type @required.
+    height: 183, //@required
+    width:  127, //@required
+  );
+```
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
